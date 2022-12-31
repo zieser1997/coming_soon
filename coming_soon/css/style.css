@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+body {
+  /* background-color: #333; */
+  color: rgb(245, 239, 239);
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  background-image: url("/img/progress_image_100_abb7e35f-82e0-4dd0-bbc2-fdadf7f79e09.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  height: 100%;
+  overflow: hidden;
+}
+.Logo{
+ font-size: 1.4em;
+ background-color: -webkit- linear-gradient(45deg, #a1f442, #ef3784);
+ -webkit-background-clip: text; /* Doesn't work on IE*/
+     -moz-background-clip: text;
+          background-clip: text;
+   /* -webkit-text-fill-color: transparent  */
+}
+.Logo:hover{
+  text-shadow: 0 0 5vw rgba(235, 4, 13, 1);
+  color: rgb(235, 4, 4);
+}
+#backg {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #333;
+  opacity: 0.85;
+  scroll-behavior: smooth;
+  z-index: -1;
+}
+h1 {
+  font-size: 5em;
+  margin: 150px 0px 30px 0px;
+}
+p {
+  font-size: 2.5em;
+}
+.countdown {
+  font-size: 2em;
+  /* border: 2px solid rgb(243, 179, 179); */
+  border-radius: 5%;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 auto;
+}
+.in-countdown {
+  display: inline-block;
+}
+.form-control{
+    margin:10px 0px 0px 0px;
+    display: inline-block; width: 50%;
+}
+
+/* .btn button{
+  display: block;
+  width: 150px;
+  color:rgb(233, 229, 229);
+  height: 35px;
+  border-radius: 10%;
+  border: none;
+  background-color:rgb(0, 0, 0);
+  cursor: pointer;
+} */
+.red {
+  color: rgb(255, 47, 47);
+}
+.redBack{
+  color: rgb(233, 86, 86);
+}
+.glowing-border {
+    box-shadow: 0 0 10px 5px linear-gradient(to right, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+  }
+  
